@@ -11,7 +11,7 @@ export const getUser = () => {
 export const getOrders = () => {
   const orders = {
     header: "Order Managment",
-    orders: [
+    items: [
       { id: 1, name: 'Orders', href: '#', current: false },
       { id: 2, name: 'Jobs', href: '#', current: false },
       { id: 3, name: 'Invoice managment', href: '#', current: false },
@@ -23,8 +23,8 @@ export const getOrders = () => {
 
 export const getProducts = () => {
   const products = {
-    header: "Order Managment",
-    products: [
+    header: "Product Managment",
+    items: [
       { id: 1, name: 'Products', href: '#', current: false },
       { id: 2, name: 'Product types', href: '#', current: false },
       { id: 3, name: 'Product catigories', href: '#', current: false },
@@ -38,7 +38,7 @@ export const getProducts = () => {
 export const getClients = () => {
   const clients = {
     header: "Client Managment",
-    clients: [
+    items: [
       { id: 1, name: 'Employees', href: '#', current: false },
       { id: 2, name: 'Subcontractors', href: '#', current: false },
       { id: 3, name: 'Customers', href: '#', current: false },
@@ -46,5 +46,18 @@ export const getClients = () => {
     ]
   }
 
+
   return clients
+}
+
+export const getSupport = () => {
+  const support = {
+    header: "Support",
+    items: [
+      { id: 1, name: 'FAQ', href: '#', current: false },
+      { id: 2, name: 'Contact support', href: '#', current: false },
+    ]
+  }
+
+  return support
 }
