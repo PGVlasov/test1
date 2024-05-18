@@ -6,12 +6,7 @@ import menu from './assets/menu.png'
 import { useState } from "react"
 
 export const NavigationBarHoorisontalSlim = ({ setVerticalMenu }) => {
-  const [horisontalMenuSlim, setHorisontalMenuSlim] = useState(true)
-
-  function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-  }
-
+  const [horisontalMenuSlim, setHorisontalMenuSlim] = useState(false)
 
   const user = getUser()
   const orders = getOrders()

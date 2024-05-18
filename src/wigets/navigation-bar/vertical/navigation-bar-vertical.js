@@ -4,7 +4,6 @@ import { NavigationBarVerticalExpanded } from "./navigation-bar-vartical-expande
 
 export const NavigationBarVertical = ({ setVerticalMenu }) => {
   const [verticalMenuSlim, setVerticalMenuSlim] = useState(false)
-  const [verticaMenuExpanded, setVerticaMenuExpanded] = useState(false)
 
 
   return (<>

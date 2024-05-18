@@ -12,11 +12,6 @@ export const NavigationBarVerticalExpanded = ({ setMenuSlim, setVerticalMenu }) 
   const clients = getClients()
   const user = getUser()
 
-
-  function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-  }
-
   const clickHandler = () => {
     setMenuSlim(true)
   }
