@@ -1,6 +1,6 @@
 import advanced from './assets/Frame.png'
 
-export const TableHeader = () => {
+export const TableHeader = () => { // to do fix styles
   return (<div className="flex flex-row h-10 bg-white justify-between">
     <div className="flex flex-row">
       <div className=" min-w-28 pt-1.5"><span className="ml-5">Orders List</span></div>

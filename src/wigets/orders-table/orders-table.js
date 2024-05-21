@@ -293,7 +293,7 @@ export const Table = () => {
                           border: "1px solid #bbbbbb"
                         }}
 
-                        onClick={() => { console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ") }}
+                        onClick={() => { console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ") }}//to do  on click open window
                       >
                         {flexRender(
                           cell.column.columnDef.cell,

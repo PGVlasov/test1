@@ -1,3 +1,5 @@
+// simulate backend response
+
 export const getUser = () => {
 
   const user = {
