@@ -1,12 +1,12 @@
 import { NavigationBar } from "../wigets/navigation-bar/navigation-bar";
-import { OrdersTable } from "../wigets/orders-table/orders-table";
+import { OrdersTable, Table } from "../wigets/orders-table/orders-table";
 
 
 function App() {
   return (
     <>
       <NavigationBar />
-      <OrdersTable />
+      <Table />
     </>
   )
 }
